@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Primeiro exemplo PHP</title>
+    <title>Variáveis</title>
 </head>
 <body>
     <header>
-        <h1>testando PHP</h1>
+        <h1>variáveis de variáveis</h1>
     </header>
     <main>
         <div id="php">
-            
             <?php
-            $nome = "Rafa";
-            $idade = "45";
-            echo "$nome tem $idade anos!";
+            
+            $x = "abc";
+            $$x = "def";
+            echo "O conteúdo da variável x é $x";
+            echo "<br/> A variável criada recebeu o conteúdo $abc";
             ?>
         </div>
     </main>

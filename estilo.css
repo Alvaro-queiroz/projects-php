@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url(floresta.jpg);
+    font: normal normal 1em Arial;
+    color:#2b8a66;
+}
+div#php{
+    padding: 10px;
+}
+main{
+    border-radius: 2px;
+    transform: translateY(50%);
+    background-color: white;
+    width: 80vw;
+    height: 40vh;
+    margin: auto;
+}
+header{
+    background-color: #2b8a66;
+    color: white;
+    text-align: center;
+    transform: translateY(300%);
+    width: 80vw;
+    margin: auto;
+    border-radius: 2px;
+
+}
